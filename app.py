@@ -201,7 +201,7 @@ k[4].markdown(kpi("Too little cooling", f"{under:.1f}", "%", "of minutes · lowe
 st.caption(f"{n} minutes replayed · energy figures use the assumptions in the sidebar")
 st.write("")
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Dashboard", "▶ Replay", "🧪 What-if", "📈 Models", "ℹ️ About"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Dashboard", "Replay", "What-if", "Models", "About"])
 
 # ================================================================= TAB 1 : dashboard
 with tab1:
